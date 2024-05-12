@@ -12,7 +12,7 @@ $ julia --project -e 'import Pkg; Pkg.instantiate()'
 
 ## Running 
 
-`solve_mip.jl` is the recommended script for using cuPDLP. The results are written to JSON and text files. All commands below assume that the current directory is the working directory.
+`solve_mip.jl` is the recommended script. The results are written to JSON and text files with information printed. All commands below assume that the current directory is the working directory.
 
 ```shell
 $ julia --project scripts/solve_mip.jl \
